@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using DotNETTask.Domains.Dto;
 using DotNETTask.Domains.Models;
 
-namespace TestAssignment.Persistence.Interfaces.Services
+namespace DotNETTask.Persistence.Interfaces.Services
 {
     public interface IProviderService
     {

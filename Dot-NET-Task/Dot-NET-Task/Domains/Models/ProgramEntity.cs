@@ -1,7 +1,7 @@
 ﻿
 using System.Collections.Generic;
 using System.Text.Json;
-using TestAssignment.Domains.Models;
+using DotNETTask.Domains.Models;
 
 namespace DotNETTask.Domains.Models
 {

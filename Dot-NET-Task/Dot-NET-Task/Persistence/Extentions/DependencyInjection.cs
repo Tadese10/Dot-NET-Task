@@ -8,6 +8,7 @@ using DotNETTask.Persistence.Context;
 using DotNETTask.Persistence.Interfaces.Repositories;
 using DotNETTask.Persistence.Interfaces.Services;
 using DotNETTask.Persistence.Repositories;
+using DotNETTask.Core.Services;
 
 namespace DotNETTask.Infrastructure.Extentions
 {

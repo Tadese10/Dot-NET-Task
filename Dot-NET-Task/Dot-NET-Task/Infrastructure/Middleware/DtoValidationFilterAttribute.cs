@@ -16,8 +16,9 @@ using ActionExecutingContext = Microsoft.AspNetCore.Mvc.Filters.ActionExecutingC
 using ContentResult = Microsoft.AspNetCore.Mvc.ContentResult;
 using IActionFilter = Microsoft.AspNetCore.Mvc.Filters.IActionFilter;
 using ModelStateDictionary = Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary;
+using DotNETTask.Domains.Dto;
 
-namespace TestAssignment.Infrastructure.Middleware
+namespace DotNETTask.Infrastructure.Middleware
 {
     public class DtoValidationFilterAttribute : IActionFilter
     {

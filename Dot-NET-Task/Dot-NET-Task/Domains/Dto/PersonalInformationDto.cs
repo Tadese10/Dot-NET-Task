@@ -1,9 +1,9 @@
 ﻿using DotNETTask.Domains.Enum;
 using DotNETTask.Domains.Models;
 
-namespace DotNETTask.Domains.Models
+namespace DotNETTask.Domains.Dto
 {
-    public record PersonalInformation
+    public class PersonalInformationDto
     {
         public FieldOption<string> FirstName { get; set; }
         public FieldOption<string> LastName { get; set; }
