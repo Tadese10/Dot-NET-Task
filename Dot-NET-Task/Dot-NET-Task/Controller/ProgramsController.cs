@@ -54,7 +54,7 @@ namespace DotNETTask.Api.Controllers
                 Directory.CreateDirectory(folderPath);
             }
 
-            var filePath = folderPath + "\\" + providerId + "\\" + data.ImageFile.FileName;
+            var filePath = folderPath + "\\" + providerId + "\\" + Guid.NewGuid().ToString() + "\\" + data.ImageFile.FileName;
 
             using (FileStream filestream = System.IO.File.Create(filePath))
             {

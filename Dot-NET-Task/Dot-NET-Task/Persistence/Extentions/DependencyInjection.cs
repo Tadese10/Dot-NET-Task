@@ -22,6 +22,7 @@ namespace DotNETTask.Infrastructure.Extentions
 					configuration["Cosmos:AccountKey"],
 					configuration["Cosmos:DatabaseName"])
 			);
+
 			services
 				.AddScoped<IProviderRepository, ProviderRepository>();
 
