@@ -1,7 +1,7 @@
 Project Name
 # Dot-NET-Task
 
-On this project, I leveraged on Onion architecture which has different layers.
+For this project, I leveraged on Onion architecture which has different layers.
 
 Domain Layer
 The heart of Onion Architecture, the Domain Layer, encapsulates the core business logic of the application, including entities, value objects, business rules, and interfaces that outline contracts with other layers.
